@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "马铭杰 (Mingjie Ma)"
-description              : "Multimodal Large Language Models\\Efficient Reasoning\\Reinforcement Learning"
+description              : "Multimodal Large Language Models, Efficient Reasoning, Reinforcement Learning"
 repository               : "MeinhardMark/MeinhardMark.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "居奇 (Ju Qi)"
-  avatar           : "images/juqi.png"
+  name             : "马铭杰 (Mingjie Ma)"
+  avatar           : "images/30162337.png"
   bio              : "Huazhong University of Science and Technology"
   location         : "Wuhan, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=SCHOLAR_ID&user=l0nT2r4AAAAJ"
-  email            : "juqi@hust.edu.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=iT8QntwAAAAJ"
+  email            : "mamj1031@qq.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Zealoter"
+  github           : "MeinhardMark"
   google_plus      :
   keybase          :
   instagram        :
@@ -57,8 +57,8 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  zhihu            : "https://www.zhihu.com/people/ju-qi-94"
-  xiaohongshu      : "https://www.xiaohongshu.com/user/profile/5def5a9b0000000001000f3a"
+  zhihu            : 
+  xiaohongshu      : "link here"
 
 
 # Reading Files
