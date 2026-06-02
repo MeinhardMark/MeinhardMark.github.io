@@ -17,84 +17,73 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-[//]: # (My name is Ju Qi. I'm from Huazhong University of Science and Technology, and my research areas are game theory and reinforcement learning.)
 
-[//]: # (My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> &#40;You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>&#41;.)
-
-
-[//]: # (# 🔥 News)
-
-[//]: # (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
-
-[//]: # (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
-
-# 📖 Educations
+# 🎓 Educations
 
 <div class="logo-row">
   <div class="logo-row__logo"><img src="{{ '/images/logos/hust.png' | relative_url }}" alt="HUST"></div>
   <div class="logo-row__body">
     <h4>Huazhong University of Science and Technology &mdash; Wuhan, China</h4>
-    <p><em>Sep. 2019 - Jun. 2026</em>, Ph.D. in Control Science and Engineering, School of Artificial Intelligence and Automation, advised by Prof. Yunfeng Luo.</p>
-    <p>Research areas: Large Language Model, Reinforcement Learning, Game Theory.</p>
+    <p><em>Sep. 2023 - Jun. 2027</em>, Ph.D., School of Computer Science and Technology, advised by Prof. Guohui Li.</p>
+    <p>Research areas: Multimodal Large Language Models, Efficient Reasoning, Reinforcement Learning.</p>
   </div>
 </div>
 
 
+# 📑 Publications
 
-# 🧑‍💼 Work Experiences
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGKDD 2026 Oral</div><img src='images/mmsep.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+MMSep: Efficient Multimodal Long-Generation Reasoning via Multimodal Separator Compression \\
+**Mingjie Ma**, Yichao Ma, Jiannan Cao, Changhong Li, Chuhang Hong, Zhong Yang, Guohui Li
 
-<div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="ByteDance Seed"></div>
-  <div class="logo-row__body">
-    <h3>ByteDance Seed &mdash; Doubao Post-Training (Jul. 2026 ~ Now)</h3>
-    <p>Working on the post-training of Doubao large language models at ByteDance Seed. Focused on alignment and capability enhancement through supervised fine-tuning, RLHF / RLAIF, and reasoning-oriented reward modeling, with the goal of pushing Doubao's instruction following, reasoning and tool-use abilities further.</p>
-  </div>
+- paper intro line 1
+- paper intro line 2
+- paper intro line 3
+</div>
 </div>
 
-# 📝 Publications 
 
-1. [Preference-CFR Beyond Nash Equilibrium for Better Game Strategies. (ICML 2025)](https://arxiv.org/abs/2411.01217) Proposes the Preference Counterfactual Regret Minimization (Pref-CFR) algorithm to achieve diverse Nash equilibria, enabling customizable strategies by incorporating preference and vulnerability parameters. Demonstrates distinct play styles in Texas Hold’em without sacrificing strategic strength.
-2. [Accelerating Nash Equilibrium Convergence in Monte Carlo Settings Through Counterfactual Value Based Fictitious Play (NeurIPS 2024).](https://arxiv.org/abs/2309.03084) Introduces the Monte Carlo Counterfactual Value-Based Fictitious Play (MCCFVFP) algorithm for large-scale games, achieving 20–50\% faster convergence than standard MCCFR in complex settings like Texas Hold’em.
-3. [Real-Time Weighted Fictitious Play: Converging to Equilibrium at the Speed of $O(T^{-1})$ in Games.](https://arxiv.org/abs/2402.12164) Presents the Real-Time Weighted Fictitious Play (RTWFP) algorithm with $O(T^{-1})$ convergence in two-player zero-sum games, extending to correlated equilibrium and continuous-time FP. Outperforms existing algorithms in scalability and speed.
-4. [ELO-Rated Sequence Rewards: Advancing Reinforcement Learning Models.](https://arxiv.org/abs/2409.03301) Proposes ELO-Rated Sequence Rewards (ERRL), which uses ordinal preferences and ELO ratings to replace numerical rewards, achieving superior performance in long-term RL tasks like Atari benchmarks.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/slofo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+Seeing What Matters: A Training-Free Self-Guided Framework for Multimodal Detail Perception and Reasoning \\
+**Mingjie Ma**, Yichao Ma, Zhong Yang, Guohui Li
 
-[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>)
-
-[//]: # (<div class='paper-box-text' markdown="1">)
-
-[//]: # ()
-[//]: # ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
-
-[//]: # ()
-[//]: # (**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun)
-
-[//]: # ()
-[//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
-
-[//]: # (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
-
-[//]: # (</div>)
-
-[//]: # (</div>)
-
-[//]: # ()
-[//]: # (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
-
-[//]: # (# 🎖 Honors and Awards)
-
-[//]: # (- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
-
-[//]: # (- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+- paper intro line 1
+- paper intro line 2
+- paper intro line 3
+</div>
+</div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/eventlens.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+EventLens: Enhancing Visual Commonsense Reasoning by Leveraging Event-Aware Pretraining and Cross-modal Linking \\
+**Mingjie Ma**, Zhihuan Yu, Yichao Ma, Guohui Li, Zhong Yang
 
-[//]: # (# 💬 Invited Talks)
+- paper intro line 1
+- paper intro line 2
+- paper intro line 3
+</div>
+</div>
 
-[//]: # (- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
-[//]: # (- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]]&#40;https://github.com/&#41;)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/eventlens.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices \\
+Zhiyuan Ma, Yuzhu Zhang, Guoli Jia, Liangliang Zhao, Yichao Ma, **Mingjie Ma**, Gaofeng Liu, Kaiyan Zhang, Ning Ding, Jianjun Li, Bowen Zhou
 
-# 💻 Internship Experiences
+- paper intro line 1
+- paper intro line 2
+- paper intro line 3
+</div>
+</div>
+
+# 👨‍💻 Internship Experiences
 
 <div class="logo-row">
   <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="ByteDance Seed"></div>
