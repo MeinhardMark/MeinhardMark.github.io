@@ -32,7 +32,7 @@ redirect_from:
 
 # 📑 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGKDD 2026 Oral</div><img src='images/mmsep.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGKDD 2026 Oral</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 MMSep: Efficient Multimodal Long-Generation Reasoning via Multimodal Separator Compression \\
@@ -45,7 +45,7 @@ MMSep: Efficient Multimodal Long-Generation Reasoning via Multimodal Separator C
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/slofo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 Seeing What Matters: A Training-Free Self-Guided Framework for Multimodal Detail Perception and Reasoning \\
@@ -58,7 +58,7 @@ Seeing What Matters: A Training-Free Self-Guided Framework for Multimodal Detail
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/eventlens.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 EventLens: Enhancing Visual Commonsense Reasoning by Leveraging Event-Aware Pretraining and Cross-modal Linking \\
@@ -71,7 +71,7 @@ EventLens: Enhancing Visual Commonsense Reasoning by Leveraging Event-Aware Pret
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/eventlens.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices \\
