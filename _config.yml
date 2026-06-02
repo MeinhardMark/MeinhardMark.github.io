@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "居奇 (Ju Qi)"
-description              : "Game Theory, Reinforcement Learning, Large Language Model"
-repository               : "Zealoter/Zealoter.github.io"
+title                    : "马铭杰 (Mingjie Ma)"
+description              : "Multimodal Large Language Models\\Efficient Reasoning\\Reinforcement Learning"
+repository               : "MeinhardMark/MeinhardMark.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
