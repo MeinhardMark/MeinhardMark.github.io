@@ -77,7 +77,6 @@ Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices 
 Zhiyuan Ma, Yuzhu Zhang, Guoli Jia, Liangliang Zhao, Yichao Ma, **Mingjie Ma**, Gaofeng Liu, Kaiyan Zhang, Ning Ding, Jianjun Li, Bowen Zhou
 
 - 1st comprehensive survey on Efficient Diffusion Models
-- paper intro line 2
 </div>
 </div>
 
@@ -88,9 +87,6 @@ Zhiyuan Ma, Yuzhu Zhang, Guoli Jia, Liangliang Zhao, Yichao Ma, **Mingjie Ma**, 
 PriCo: Prior-Guided Bidirectional Branch Cooperation in ControlNet for Fine-Grained Pose Generation \\
 Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
 
-- paper intro line 1
-- paper intro line 2
-- paper intro line 3
 </div>
 </div>
 
