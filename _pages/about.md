@@ -24,7 +24,7 @@ redirect_from:
   <div class="logo-row__logo"><img src="{{ '/images/logos/hust.png' | relative_url }}" alt="HUST"></div>
   <div class="logo-row__body">
     <h4>Huazhong University of Science and Technology &mdash; Wuhan, China</h4>
-    <p><em>Sep. 2023 - Jun. 2027</em>, Ph.D., School of Computer Science and Technology, advised by Prof. Guohui Li.</p>
+    <p><em>Sep. 2023 - Jun. 2027</em>, Ph.D., School of Computer Science and Technology, advised by Prof. Guohui Li and Prof. Jianjun Li.</p>
     <p>Research areas: Multimodal Large Language Models, Efficient Reasoning, Reinforcement Learning.</p>
   </div>
 </div>
@@ -38,7 +38,7 @@ redirect_from:
 MMSep: Efficient Multimodal Long-Generation Reasoning via Multimodal Separator Compression \\
 **Mingjie Ma**, Yichao Ma, Jiannan Cao, Changhong Li, Chuhang Hong, Zhong Yang, Guohui Li
 
-- 1st empirical investigation of attention behavior during MLLM decoding.
+- 1st empirical investigation of multimodal separator behavior during MLLM decoding.
 - Our MMSep framework jointly optimizes prefilling and decoding stages.
 - Achieving substantial acceleration with minimal degradation in generation quality on both long-generation and standard benchmarks.
 </div>

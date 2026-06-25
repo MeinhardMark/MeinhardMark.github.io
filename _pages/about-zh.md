@@ -21,24 +21,71 @@ lang: zh
   <div class="logo-row__logo"><img src="{{ '/images/logos/hust.png' | relative_url }}" alt="华中科技大学"></div>
   <div class="logo-row__body">
     <h4>华中科技大学 &mdash; 武汉</h4>
-    <p><em>2019 年 9 月 - 2026 年 6 月</em>，控制科学与工程博士，人工智能与自动化学院，师从罗云峰教授。</p>
-    <p>研究方向：大语言模型、强化学习、博弈论。</p>
+    <p><em>2023 年 6 月 - 2027 年 6 月</em>，博士，计算机科学与技术学院，师从李国徽教授、李剑军教授。</p>
+    <p>研究方向：多模态大模型、自然语言处理、高效推理。</p>
   </div>
 </div>
 
-
-
-# 🧑‍💼 工作经历
-
-<div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="字节跳动 Seed"></div>
-  <div class="logo-row__body">
-    <h3>字节跳动 Seed &mdash; 豆包大模型后训练（2026 年 7 月 ~ 至今）</h3>
-    <p>在字节跳动 Seed 团队从事豆包大模型的后训练工作。聚焦于通过 SFT、RLHF / RLAIF 以及面向推理的奖励建模等方法持续提升模型的对齐质量与综合能力，目标是进一步增强豆包在指令跟随、复杂推理与工具使用等方向上的表现。</p>
-  </div>
-</div>
 
 # 📝 学术论文
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGKDD 2026 Oral</div><img src='images/MMSep.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+MMSep: Efficient Multimodal Long-Generation Reasoning via Multimodal Separator Compression \\
+**Mingjie Ma**, Yichao Ma, Jiannan Cao, Changhong Li, Chuhang Hong, Zhong Yang, Guohui Li
+
+- 第一个实证性调研 MLLMs 解码期间多模态分隔符行为。
+- 提出的 MMSep 架构针对预填充与解码两个阶段进行计算效率联合优化。
+- Achieving substantial acceleration with minimal degradation in generation quality on both long-generation and standard benchmarks.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/SLoFo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+Seeing What Matters: A Training-Free Self-Guided Framework for Multimodal Detail Perception and Reasoning \\
+**Mingjie Ma**, Yichao Ma, Zhong Yang, Guohui Li
+
+- An MLLM-intrinsic, robust region selection mechanism
+- Visual token reduction to enhance signal-to-noise ratio and reduce overhead
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/EL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+EventLens: Enhancing Visual Commonsense Reasoning by Leveraging Event-Aware Pretraining and Cross-modal Linking \\
+**Mingjie Ma**, Zhihuan Yu, Yichao Ma, Guohui Li, Zhong Yang
+
+- Proposing an Event-Aware pretraining stage, enabling MLLMs to understand complex visual scenes and to infer ongoing events and character intentions.
+- A fine-grained Linking Mechanism improves cross-modal alignment.
+- EventLens ranked 3rd on Global Leaderboard when first submitted.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/EDMs.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices \\
+Zhiyuan Ma, Yuzhu Zhang, Guoli Jia, Liangliang Zhao, Yichao Ma, **Mingjie Ma**, Gaofeng Liu, Kaiyan Zhang, Ning Ding, Jianjun Li, Bowen Zhou
+
+- 1st comprehensive survey on Efficient Diffusion Models
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/prico.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+PriCo: Prior-Guided Bidirectional Branch Cooperation in ControlNet for Fine-Grained Pose Generation \\
+Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
+
+</div>
+</div>
 
 1. [Preference-CFR Beyond Nash Equilibrium for Better Game Strategies. (ICML 2025)](https://arxiv.org/abs/2411.01217) 提出偏好反事实遗憾最小化算法（Pref-CFR），通过引入偏好与脆弱性参数实现多样化的纳什均衡求解，可在不损失策略强度的前提下定制不同风格的策略，并在德州扑克中展示了不同的打法风格。
 2. [Accelerating Nash Equilibrium Convergence in Monte Carlo Settings Through Counterfactual Value Based Fictitious Play (NeurIPS 2024).](https://arxiv.org/abs/2309.03084) 提出基于反事实值的蒙特卡洛虚拟对弈算法（MCCFVFP），在德州扑克等大规模复杂博弈中相比传统 MCCFR 收敛速度提升 20–50%。
