@@ -32,7 +32,7 @@ redirect_from:
 
 # 📑 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGKDD 2026 Oral</div><img src='images/MMSep.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026 Oral</div><img src='images/MMSep.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 MMSep: Efficient Multimodal Long-Generation Reasoning via Multimodal Separator Compression \\
@@ -113,6 +113,64 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
 </div>
 
 
+# 💻 Project Experiences
+
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/NSFC.png' | relative_url }}" alt="NSFC"></div>
+  <div class="logo-row__body">
+    <h3>NSFC &mdash; Conversational Recommendation with Multimodal Data Fusion and Explainability (Jun. 2022 ~ Jun. 2025)</h3>
+    <ul>
+      <li><strong>Project Goal:</strong> Explainable multimodal conversational recommendation systems by addressing semantic alignment, user intent understanding, multimodal knowledge representation, and reasoning over heterogeneous data sources (e.g., text and images).</li>
+      <li><strong>Project Results:</strong> Developed the UniTranSeR framework and FAIR intent reasoner for multimodal conversational recommendation, significantly enhancing cross-modal semantic understanding and fine-grained user intent reasoning</li>
+      <li><strong>Personal Work:</strong> 
+        <ul>
+          <li>Led the research on fine-grained semantic alignment and unified semantic modeling.</li>
+          <li>Delivered <strong>UniTranSeR</strong>, a cross-modal feature alignment and fusion framework that projects heterogeneous multimodal representations into a unified semantic space. Developed a Feature Alignment and Intent Reasoning (FAIR) module for cross-modal entity alignment and fine-grained key-value reasoning.</li>
+          <li>Conducted model implementation, training, and evaluations.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/Vivo.png' | relative_url }}" alt="NSFC"></div>
+  <div class="logo-row__body">
+    <h3>CSSC &mdash; Multimodal Reasoning Methodology (Aug. 2023 ~ Mar. 2026)</h3>
+    <ul>
+      <li><strong>Project Goal:</strong> .</li>
+      <li><strong>Project Results:</strong> </li>
+      <li><strong>Personal Work:</strong> 
+        <ul>
+          <li>line 1.</li>
+          <li>line 2.</li>
+          <li>line 3.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/Vivo.png' | relative_url }}" alt="NSFC"></div>
+  <div class="logo-row__body">
+    <h3>CSSC &mdash; Multimodal Reasoning Methodology (Jul. 2023 - Present)</h3>
+    <ul>
+      <li><strong>Project Goal:</strong> .</li>
+      <li><strong>Project Results:</strong> </li>
+      <li><strong>Personal Work:</strong> 
+        <ul>
+          <li>line 1.</li>
+          <li>line 2.</li>
+          <li>line 3.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
 # 🏆 Competetion Experiences
 
 <div class="logo-row">
@@ -133,29 +191,6 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
     </ul>
   </div>
 </div>
-
-
-# 💻 Project Experiences
-
-<div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/NSFC.png' | relative_url }}" alt="NSFC"></div>
-  <div class="logo-row__body">
-    <h3>NSFC &mdash; Domain LLM application and agent system (Dec. 2024 ~ Mar. 2025)</h3>
-    <ul>
-      <li><strong>Project Goal:</strong> domain LLM and agent system for foreign language education consultation scenarios, improving dialogue quality through data construction, model fine-tuning, and agent architecture design.</li>
-      <li><strong>Project Results:</strong> Established a supporting data management pipeline for continuous iteration and a high-quality dataset of 20,000 multi-turn dialogues; Delivered a model fine-tuning &amp; evaluation across multiple mainstream LLMs (Qwen, Doubao, GPT-4o); Deployed a RAG-based Agent system integrating tool calling, user profiling, and business APIs, achieving a full end-to-end cycle from demo to production.</li>
-      <li><strong>Personal Work:</strong> 
-        <ul>
-          <li><strong>Data Construction:</strong> Built, cleaned, and quality-controlled 20,000 multi-turn dialogue samples (100–600 turns each).</li>
-          <li><strong>Model Selection &amp; Fine-tuning:</strong> Benchmarked multiple models across three approaches (direct use, prompt optimization, and supervised fine-tuning) to determine the optimal solution.</li>
-          <li><strong>Agent Development:</strong> Designed the Agent Workflow architecture, implementing retrieval-augmented generation, tool calling, structured user profiling, and business system integration.</li>
-          <li><strong>Collaboration &amp; Operations:</strong> Partnered with frontline consulting teams on requirements analysis, performance evaluation, and iterative deployment; produced documentation and built a pipeline for continuous data collection and model updates</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</div>
-
 
 
 

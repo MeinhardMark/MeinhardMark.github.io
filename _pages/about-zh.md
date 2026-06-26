@@ -29,7 +29,7 @@ lang: zh
 
 # 📝 学术论文
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGKDD 2026 Oral</div><img src='images/MMSep.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026 Oral</div><img src='/images/MMSep.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 MMSep: Efficient Multimodal Long-Generation Reasoning via Multimodal Separator Compression \\
@@ -37,112 +37,153 @@ MMSep: Efficient Multimodal Long-Generation Reasoning via Multimodal Separator C
 
 - 第一个实证性调研 MLLMs 解码期间多模态分隔符行为。
 - 提出的 MMSep 架构针对预填充与解码两个阶段进行计算效率联合优化。
-- Achieving substantial acceleration with minimal degradation in generation quality on both long-generation and standard benchmarks.
+- 长生成和标准基准测试中，在生成质量的下降幅度极小的情况下，实现了显著的加速。
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/SLoFo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='/images/SLoFo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 Seeing What Matters: A Training-Free Self-Guided Framework for Multimodal Detail Perception and Reasoning \\
 **Mingjie Ma**, Yichao Ma, Zhong Yang, Guohui Li
 
-- An MLLM-intrinsic, robust region selection mechanism
-- Visual token reduction to enhance signal-to-noise ratio and reduce overhead
+- 利用 MLLM 固有特性实现稳健的关键视觉区域选择，提升细节敏感推理表现。
+- 视觉标记减少以提高信噪比并降低开销。
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/EL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='/images/EL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 EventLens: Enhancing Visual Commonsense Reasoning by Leveraging Event-Aware Pretraining and Cross-modal Linking \\
 **Mingjie Ma**, Zhihuan Yu, Yichao Ma, Guohui Li, Zhong Yang
 
-- Proposing an Event-Aware pretraining stage, enabling MLLMs to understand complex visual scenes and to infer ongoing events and character intentions.
-- A fine-grained Linking Mechanism improves cross-modal alignment.
-- EventLens ranked 3rd on Global Leaderboard when first submitted.
+- 提出事件感知预训练阶段，使 MLLM 能够理解复杂的视觉场景，并推断正在发生的事件和角色意图。
+- 细粒度链接机制可以改善跨模态对齐。
+- EventLens 首次提交时在全球排行榜上排名第3。
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/EDMs.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='/images/EDMs.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices \\
 Zhiyuan Ma, Yuzhu Zhang, Guoli Jia, Liangliang Zhao, Yichao Ma, **Mingjie Ma**, Gaofeng Liu, Kaiyan Zhang, Ning Ding, Jianjun Li, Bowen Zhou
 
-- 1st comprehensive survey on Efficient Diffusion Models
+- 首次对扩散模型高效性进行全面调查
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/prico.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='/images/prico.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 PriCo: Prior-Guided Bidirectional Branch Cooperation in ControlNet for Fine-Grained Pose Generation \\
-Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
+Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (第二学生作者)
 
 </div>
 </div>
-
-1. [Preference-CFR Beyond Nash Equilibrium for Better Game Strategies. (ICML 2025)](https://arxiv.org/abs/2411.01217) 提出偏好反事实遗憾最小化算法（Pref-CFR），通过引入偏好与脆弱性参数实现多样化的纳什均衡求解，可在不损失策略强度的前提下定制不同风格的策略，并在德州扑克中展示了不同的打法风格。
-2. [Accelerating Nash Equilibrium Convergence in Monte Carlo Settings Through Counterfactual Value Based Fictitious Play (NeurIPS 2024).](https://arxiv.org/abs/2309.03084) 提出基于反事实值的蒙特卡洛虚拟对弈算法（MCCFVFP），在德州扑克等大规模复杂博弈中相比传统 MCCFR 收敛速度提升 20–50%。
-3. [Real-Time Weighted Fictitious Play: Converging to Equilibrium at the Speed of $O(T^{-1})$ in Games.](https://arxiv.org/abs/2402.12164) 提出实时加权虚拟对弈算法（RTWFP），在两人零和博弈中实现 $O(T^{-1})$ 的收敛速度，并扩展到相关均衡及连续时间 FP，在可扩展性与速度上均优于现有算法。
-4. [ELO-Rated Sequence Rewards: Advancing Reinforcement Learning Models.](https://arxiv.org/abs/2409.03301) 提出基于 ELO 评级的序列奖励方法（ERRL），使用序数偏好与 ELO 评分替代传统数值奖励，在 Atari 等长程强化学习任务中取得领先性能。
 
 
 
 # 💻 实习经历
 
 <div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="字节跳动 Seed"></div>
+  <div class="logo-row__logo"><img src="{{ '/images/BohrDuck.png' | relative_url }}" alt="Bohr Duck AI"></div>
   <div class="logo-row__body">
-    <h3>字节跳动 Seed &mdash; 基于博弈的大模型后训练（2025 年 6 月 ~ 2025 年 10 月）</h3>
+    <h3>上海波尔鸭人工智能科技有限公司 &mdash; 垂域模型与智能体系统 (2024 年 11 月 ~ 2025 年 3 月)</h3>
     <ul>
-      <li><strong>项目目标：</strong>将博弈论问题引入大语言模型的后训练流程，提升 LLM 能力上限。</li>
-      <li><strong>项目成果：</strong>交付了面向博弈场景的 LLM 评估框架与训练框架；训练出的德州扑克 LLM AI 在指令遵循能力提升的同时，整体表现优于 GPT-o3、Grok-4 等模型。</li>
-      <li><strong>个人工作：</strong>提出了一种带有 "LLM Reflection" 机制的新算法，在博弈场景中优于传统强化学习方法；搭建了面向博弈的 LLM 评估框架（已集成进团队体系）以及基于 Verl 的训练框架。</li>
+      <li><strong>项目目标：</strong> 针对外语教育咨询场景的领域，微调垂域大模型，构建咨询辅导智能体。</li>
+      <li><strong>项目结果：</strong> 建立了支持持续迭代的数据管理管道和包含 20,000 个多轮对话的高质量数据集；实现了跨多个主流大模型的微调和评估；部署了基于 RAG 的智能体系统，集成了工具调用、用户画像和业务 API，实现产品完整端到端周期。</li>
+      <li><strong>个人工作：</strong> 
+        <ul>
+          <li><strong>数据构建：</strong> 构建、清理和质量控制 2 万个多轮对话样本（每个样本 100-600 轮）.</li>
+          <li><strong>选型与微调：</strong> 对 直接使用、快速优化和监督微调 三种情况下的多个模型进行基准测试，以确定最佳解决方案。</li>
+          <li><strong>智能体开发：</strong> 设计了智能体工作流架构，实现了 RAG、工具调用、结构化用户画像和业务系统集成。</li>
+          <li><strong>协作与运营：</strong> 与合作方一线教师合作，持续反馈分析、性能评估和迭代部署；编写文档并构建长期数据清洗和模型更新的流程。</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+# 💻 项目经历
+
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/NSFC.png' | relative_url }}" alt="NSFC"></div>
+  <div class="logo-row__body">
+    <h3>国家自然科学基金 &mdash; 融合多模态数据的对话式推荐及其可解释性研究 （2022 年 6 月 ~ 2025 年 6 月）</h3>
+    <ul>
+      <li><strong>Project Goal:</strong> Explainable multimodal conversational recommendation systems by addressing semantic alignment, user intent understanding, multimodal knowledge representation, and reasoning over heterogeneous data sources (e.g., text and images).</li>
+      <li><strong>Project Results:</strong> Developed the UniTranSeR framework and FAIR intent reasoner for multimodal conversational recommendation, significantly enhancing cross-modal semantic understanding and fine-grained user intent reasoning</li>
+      <li><strong>Personal Work:</strong> 
+        <ul>
+          <li>Led the research on fine-grained semantic alignment and unified semantic modeling.</li>
+          <li>Delivered <strong>UniTranSeR</strong>, a cross-modal feature alignment and fusion framework that projects heterogeneous multimodal representations into a unified semantic space. Developed a Feature Alignment and Intent Reasoning (FAIR) module for cross-modal entity alignment and fine-grained key-value reasoning.</li>
+          <li>Conducted model implementation, training, and evaluations.</li>
+        </ul>
+      </li>
     </ul>
   </div>
 </div>
 
 <div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/Vivo.png' | relative_url }}" alt="vivo"></div>
+  <div class="logo-row__logo"><img src="{{ '/images/CSSC.png' | relative_url }}" alt="CSSC"></div>
   <div class="logo-row__body">
-    <h3>vivo &mdash; 基于强化学习的 Stable Diffusion 模型微调（2025 年 2 月 ~ 2025 年 4 月）</h3>
+    <h3>中船七〇九所开放基金 &mdash; 多模态场景下的大语言模型推理方法研究 （2023 年 8 月 ~ 2026 年 3 月）</h3>
     <ul>
-      <li><strong>项目目标：</strong>使用强化学习对 Stable Diffusion 进行微调，提升生成质量与提示词对齐效果。</li>
-      <li><strong>项目成果：</strong>初步结果显示生成图像在质量、文本相关性以及与人类偏好的对齐上均有明显提升，正在持续优化奖励设计与扩大分布式训练规模。</li>
-      <li><strong>个人工作：</strong>设计了融合美学评分、文本相关性、多样性与人类反馈的复合奖励模型，并调优了 SD 的强化学习训练链路。</li>
+      <li><strong>项目目标：</strong> 多模态场景下，基于大模型语义感知和复杂推理的辅助决策。</li>
+      <li><strong>项目结果：</strong> 交付了面向多模态辅助决策场景的 MLLM 数据收集、清洗、模型微调与评估框架；可兼容多种语言模型和数据模态</li>
+      <li><strong>个人工作：</strong> 提出 EventLens 模型，系统构建了事件感知预训练任务和跨模态语义链接模块；提出基于随机路由的域适配器微调方法，设计多适配器混合结构、门控机制与KL散度一致性正则化策略。</li>
     </ul>
   </div>
 </div>
 
-### Fen AI &mdash; 德州扑克 AI（2023 年 9 月 ~ 2024 年 1 月）
-
-- **项目目标：**打造一款对标 Pluribus（业内知名德州扑克 AI）水平的 AI。
-- **项目成果：**最终 AI 在两人德州扑克中达到了职业玩家水平，多人德州扑克 AI 仍在持续开发中。
-- **个人工作：**参与核心算法的研发（如 MCCFR、MCCFR pruning），搭建了策略存储与结果可视化等基础组件，并负责算法的参数调优与测试。
 
 <div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="字节跳动朝夕光年"></div>
+  <div class="logo-row__logo"><img src="{{ '/images/jyb.png' | relative_url }}" alt="JYB"></div>
   <div class="logo-row__body">
-    <h3>字节跳动朝夕光年 &mdash; 强化学习实习（2021 年 7 月 ~ 2022 年 3 月）</h3>
+    <h3>中国教育部联合基金 &mdash; 脑启发的xxx自适应视觉感知技术 （2023 年 7 月 ~ 至今）</h3>
     <ul>
-      <li><strong>项目目标：</strong>为游戏《航海王：燃烧意志》设计多风格 AI 陪玩 NPC。</li>
-      <li><strong>项目成果：</strong>在原有 AI 训练框架之上加入风格演化模块，核心指标提升 80–120%，并在玩法风格上形成清晰区分，部分 AI 已达到可上线水平。</li>
-      <li><strong>个人工作：</strong>作为该项目的主要执行者，在导师指导下实现了多风格 AI 算法，并探索了人类偏好与强化学习相融合的方法，最终沉淀为一篇总结研究发现与潜在应用的研究论文。</li>
+      <li><strong>Project Goal:</strong> .</li>
+      <li><strong>Project Results:</strong> </li>
+      <li><strong>Personal Work:</strong> 
+        <ul>
+          <li>line 1.</li>
+          <li>line 2.</li>
+          <li>line 3.</li>
+        </ul>
+      </li>
     </ul>
   </div>
 </div>
 
-### 华润集团 &mdash; 土地竞拍（2021 年 2 月 ~ 2021 年 6 月）
 
-- **项目目标：**为华润集团设计 "首/末" 类型土地竞拍中的报价策略。
-- **项目成果：**该策略获华润置地集团认可，并在数十宗（每宗超 1 亿美元）的土地竞拍中部署。算法表现优于集团专家方案，报价精度提升 3–4 倍，中标概率提升约 5%，最终被采纳为集团标准土地竞拍策略。
-- **个人工作：**基于历史竞拍数据搭建 "首/末" 类竞拍仿真环境，使用 Fictitious Play 算法开发竞价策略；亲历 3 次真实竞拍，总报价规模约 10 亿美元，并据此持续打磨模型。
+
+# 🏆 Competetion Experiences
+
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/com-logo.svg' | relative_url }}" alt="HuaweiCup"></div>
+  <div class="logo-row__body">
+    <h3>Huawei Cup &mdash; China Graduate AI Innovation Competition (Nov. 2024 ~ Mar. 2025)</h3>
+    <ul>
+      <li><strong>Project Goal:</strong> domain LLM and agent system for foreign language education consultation scenarios, improving dialogue quality through data construction, model fine-tuning, and agent architecture design.</li>
+      <li><strong>Project Results:</strong> Established a supporting data management pipeline for continuous iteration and a high-quality dataset of 20,000 multi-turn dialogues; Delivered a model fine-tuning &amp; evaluation across multiple mainstream LLMs (Qwen, Doubao, GPT-4o); Deployed a RAG-based Agent system integrating tool calling, user profiling, and business APIs, achieving a full end-to-end cycle from demo to production.</li>
+      <li><strong>Personal Work:</strong> 
+        <ul>
+          <li><strong>Data Construction:</strong> Built, cleaned, and quality-controlled 20,000 multi-turn dialogue samples (100–600 turns each).</li>
+          <li><strong>Model Selection &amp; Fine-tuning:</strong> Benchmarked multiple models across three approaches (direct use, prompt optimization, and supervised fine-tuning) to determine the optimal solution.</li>
+          <li><strong>Agent Development:</strong> Designed the Agent Workflow architecture, implementing retrieval-augmented generation, tool calling, structured user profiling, and business system integration.</li>
+          <li><strong>Collaboration &amp; Operations:</strong> Partnered with frontline consulting teams on requirements analysis, performance evaluation, and iterative deployment; produced documentation and built a pipeline for continuous data collection and model updates</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
 
 # 📝 最新博客
 
