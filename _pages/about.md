@@ -134,7 +134,7 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
 </div>
 
 <div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/Vivo.png' | relative_url }}" alt="NSFC"></div>
+  <div class="logo-row__logo"><img src="{{ '/images/CSSC.png' | relative_url }}" alt="CSSC"></div>
   <div class="logo-row__body">
     <h3>CSSC &mdash; Multimodal Reasoning Methodology (Aug. 2023 ~ Mar. 2026)</h3>
     <ul>
@@ -148,7 +148,7 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
 
 
 <div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/Vivo.png' | relative_url }}" alt="NSFC"></div>
+  <div class="logo-row__logo"><img src="{{ '/images/jyb.png' | relative_url }}" alt="JYB"></div>
   <div class="logo-row__body">
     <h3>China Ministry of Education Joint Fund &mdash; Brain-Inspired Adaptive Visual Perception (Jul. 2023 - Present)</h3>
     <ul>
