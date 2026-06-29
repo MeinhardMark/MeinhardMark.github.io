@@ -35,7 +35,7 @@ lang: zh
 MMSep: Efficient Multimodal Long-Generation Reasoning via Multimodal Separator Compression \\
 **Mingjie Ma**, Yichao Ma, Jiannan Cao, Changhong Li, Chuhang Hong, Zhong Yang, Guohui Li
 
-- 第一个实证性调研 MLLMs 解码期间多模态分隔符行为。
+- 首次实证性调研 MLLMs 解码期间多模态分隔符行为。
 - 提出的 MMSep 架构针对预填充与解码两个阶段进行计算效率联合优化。
 - 长生成和标准基准测试中，在生成质量的下降幅度极小的情况下，实现了显著的加速。
 </div>
