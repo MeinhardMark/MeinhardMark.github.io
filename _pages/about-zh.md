@@ -84,6 +84,7 @@ Zhiyuan Ma, Yuzhu Zhang, Guoli Jia, Liangliang Zhao, Yichao Ma, **Mingjie Ma**, 
 PriCo: Prior-Guided Bidirectional Branch Cooperation in ControlNet for Fine-Grained Pose Generation \\
 Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (第二学生作者)
 
+- 提出无需训练的 PriCo 框架，实现了结构一致性与细粒度动作保真的人体图像生成
 </div>
 </div>
 
@@ -117,13 +118,13 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (第二学生作者)
   <div class="logo-row__body">
     <h3>国家自然科学基金 &mdash; 融合多模态数据的对话式推荐及其可解释性研究 （2022 年 6 月 ~ 2025 年 6 月）</h3>
     <ul>
-      <li><strong>Project Goal:</strong> Explainable multimodal conversational recommendation systems by addressing semantic alignment, user intent understanding, multimodal knowledge representation, and reasoning over heterogeneous data sources (e.g., text and images).</li>
-      <li><strong>Project Results:</strong> Developed the UniTranSeR framework and FAIR intent reasoner for multimodal conversational recommendation, significantly enhancing cross-modal semantic understanding and fine-grained user intent reasoning</li>
-      <li><strong>Personal Work:</strong> 
+      <li><strong>项目目标：</strong> 减少多模态对话式推荐中语义理解不确定性，理解用户细粒度意图，构建可解释的多模态对话式推荐系统。</li>
+      <li><strong>项目结果：</strong> 形成了融合多模态数据的对话式推荐原型系统，在统一模态的对话语义嵌入模型、多方面细粒度意图感知与平衡框架、考虑知识图谱高异配性的智能推荐策略以及基于注意力的可解释路径推理等方面取得理论突破。</li>
+      <li><strong>个人工作：</strong> 
         <ul>
-          <li>Led the research on fine-grained semantic alignment and unified semantic modeling.</li>
-          <li>Delivered <strong>UniTranSeR</strong>, a cross-modal feature alignment and fusion framework that projects heterogeneous multimodal representations into a unified semantic space. Developed a Feature Alignment and Intent Reasoning (FAIR) module for cross-modal entity alignment and fine-grained key-value reasoning.</li>
-          <li>Conducted model implementation, training, and evaluations.</li>
+          <li>主导了细粒度语义对齐与统一语义空间的代码开发与实验。</li>
+          <li>提交了跨模态特征对齐与融合框架 <strong>UniTranSeR</strong>；开发了细粒度意图推理模块 FAIR。</li>
+          <li>完成了模型的实现、训练，参与实现自动及人工评估。</li>
         </ul>
       </li>
     </ul>
@@ -146,70 +147,36 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (第二学生作者)
 <div class="logo-row">
   <div class="logo-row__logo"><img src="{{ '/images/jyb.png' | relative_url }}" alt="JYB"></div>
   <div class="logo-row__body">
-    <h3>中国教育部联合基金 &mdash; 脑启发的xxx自适应视觉感知技术 （2023 年 7 月 ~ 至今）</h3>
+    <h3>中国教育部联合基金 &mdash; 脑启发的自适应视觉感知技术 （2023 年 7 月 ~ 至今）</h3>
     <ul>
-      <li><strong>Project Goal:</strong> .</li>
-      <li><strong>Project Results:</strong> </li>
-      <li><strong>Personal Work:</strong> 
-        <ul>
-          <li>line 1.</li>
-          <li>line 2.</li>
-          <li>line 3.</li>
-        </ul>
-      </li>
+      <li><strong>项目目标：</strong> 研究基于脑启发的自适应视觉感知技术，包括多目标检测、勘察描述生成与多目标视觉追踪等核心环节</li>
+      <li><strong>项目结果：</strong> 推进中，已完成多尺度多目标检测模型与小样本目标检测模型，已完成图像事件描述模型及多模态预训练方案;正在开展原型系统集成与性能评测</li>
+      <li><strong>个人工作：</strong> 设计了模拟大脑皮层多感受野特性的多分支块网络结构，实现多分支路由选择和多尺度感受野覆盖；设计动态神经通路模型，通过密集跨层连接与路由函数动态激活以灵活适配下游任务。</li>
     </ul>
   </div>
 </div>
 
 
-
-# 🏆 Competetion Experiences
+# 🏆 竞赛经历
 
 <div class="logo-row">
   <div class="logo-row__logo"><img src="{{ '/images/logos/com-logo.svg' | relative_url }}" alt="HuaweiCup"></div>
   <div class="logo-row__body">
-    <h3>Huawei Cup &mdash; China Graduate AI Innovation Competition (Nov. 2024 ~ Mar. 2025)</h3>
+    <h3>华为杯 &mdash; 中国研究生人工智能创新大赛 (2024 年 11 月 ~ 2025 年 3 月)</h3>
     <ul>
-      <li><strong>Project Goal:</strong> domain LLM and agent system for foreign language education consultation scenarios, improving dialogue quality through data construction, model fine-tuning, and agent architecture design.</li>
-      <li><strong>Project Results:</strong> Established a supporting data management pipeline for continuous iteration and a high-quality dataset of 20,000 multi-turn dialogues; Delivered a model fine-tuning &amp; evaluation across multiple mainstream LLMs (Qwen, Doubao, GPT-4o); Deployed a RAG-based Agent system integrating tool calling, user profiling, and business APIs, achieving a full end-to-end cycle from demo to production.</li>
-      <li><strong>Personal Work:</strong> 
-        <ul>
-          <li><strong>Data Construction:</strong> Built, cleaned, and quality-controlled 20,000 multi-turn dialogue samples (100–600 turns each).</li>
-          <li><strong>Model Selection &amp; Fine-tuning:</strong> Benchmarked multiple models across three approaches (direct use, prompt optimization, and supervised fine-tuning) to determine the optimal solution.</li>
-          <li><strong>Agent Development:</strong> Designed the Agent Workflow architecture, implementing retrieval-augmented generation, tool calling, structured user profiling, and business system integration.</li>
-          <li><strong>Collaboration &amp; Operations:</strong> Partnered with frontline consulting teams on requirements analysis, performance evaluation, and iterative deployment; produced documentation and built a pipeline for continuous data collection and model updates</li>
-        </ul>
-      </li>
+      <li><strong>赛题目标：</strong> 企业赛题 — 细粒度猫/狗识别要求模型不超过 50 MB ，实现宠物猫/狗的品种分类和个体识别。</li>
+      <li><strong>竞赛结果：</strong> 提交大小约 40 MB 的 PetXNet 模型；通过构建数据集、数据增强、困难样本挖掘、多粒度特征提取算法和分阶段式训练策略，在品种分类和个体识别准确率分别达到 <strong>92.65%</strong> 和 <strong>93.64%</strong>；获得<strong>全国三等奖</strong>。</li>
+      <li><strong>个人工作：</strong> 队长；负责项目整体规划、进度把控、技术调研；确定模型选型与技术路线调整；部分代码实施；参与全部代码评审；项目文档撰写；决赛展示汇报。</li>
     </ul>
   </div>
 </div>
 
-
-# 📝 最新博客
-
-{% assign zh_posts = site.posts | where_exp: "post", "post.path contains '_posts/CN/'" | sort: 'date' | reverse %}
-{% if zh_posts.size > 0 %}
-{% for post in zh_posts limit:2 %}
-<div class="paper-box" style="margin-bottom: 24px;">
-  <h3 style="margin: 0 0 6px 0;"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  <p class="page__meta" style="margin: 0 0 8px 0;">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</p>
-  <div class="archive__item-excerpt">
-    {{ post.excerpt | strip_html | truncate: 220 }}
-  </div>
-</div>
-{% endfor %}
-
-<p style="text-align: right;"><a href="{{ '/zh/blog/' | relative_url }}">查看全部博客 →</a></p>
-{% else %}
-<p>暂无博客内容，敬请期待。</p>
-{% endif %}
-
 # 🌱 关于我
 
-性格开朗乐观，喜欢迎接有挑战性的任务。生活中热爱**围棋**、**电子游戏**和**足球**。
+性格开朗乐观，行动力强，喜欢迎接有挑战性的任务。生活中热爱**数独**、**电子游戏**和**足球**。
 
-- **围棋：**野狐围棋业余 7 段水平。
-- **游戏：**长期挚爱《星际争霸 II》，曾经达到**国服（中国）大师段位**。
-- **足球：**铁杆**多特蒙德**球迷，最喜欢的球员是**马尔科·罗伊斯（Marco Reus）**。
+- **数独：**长期喜欢逻辑推理类谜题，享受通过分析、排除与搜索找到解的过程
+- **游戏：**热爱**我的世界**和**深海迷航**，着迷于探索、建造、资源管理。
+- **足球：**长期参与球类运动，最喜欢的是足球，曾加入学院足球队，最喜欢的球员是禁区之王范尼斯特鲁伊（Van Nistelrooij）。
 
-人生的一个巧合是：我喜欢的几乎所有东西——围棋、星际争霸、足球——都先后成为了 DeepMind 的研究对象。这个巧合也是我深信 AI 力量的原因之一。我的目标是基于大语言模型，通过 **强化学习、博弈论与多智能体系统** 的结合，在研究与产业落地两个维度推进 AGI 的前沿。
+我喜欢的这些事物都与人工智能高度相关：逻辑推理；开放环境智能体和强化学习；多智能体协作、对抗博弈和实时决策。正因为这些兴趣，我逐渐意识到 AI 不只是技术工具，更是一种理解复杂世界和创造智能行为的方式。未来我希望围绕**大模型、强化学习与多智能体系统**，不断探索 AGI 的前沿和更多可能性。

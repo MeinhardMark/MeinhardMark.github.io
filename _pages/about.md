@@ -138,14 +138,9 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
   <div class="logo-row__body">
     <h3>CSSC &mdash; Multimodal Reasoning Methodology (Aug. 2023 ~ Mar. 2026)</h3>
     <ul>
-      <li><strong>Project Goal:</strong> .</li>
-      <li><strong>Project Results:</strong> </li>
-      <li><strong>Personal Work:</strong> 
-        <ul>
-          <li>line 1.</li>
-          <li>line 2.</li>
-          <li>line 3.</li>
-        </ul>
+      <li><strong>Project Goal:</strong> To provide decision support based on large-scale model semantic perception and complex reasoning in multimodal scenarios.</li>
+      <li><strong>Project Results:</strong> Delivered EventLens, a framework for MLLM data collection, cleaning, model fine-tuning, and evaluation for multimodal decision support scenarios; compatible with multiple language models and data modalities.</li>
+      <li><strong>Personal Work:</strong> Proposing the EventLens model, systematically constructing an Event-Aware Pre-training task and a cross-modal linking module; proposing a domain adapter fine-tuning method based on routing mechanism, and designing a hybrid-adaptor structure, gating mechanism, and KL divergence consistency regularization strategy.
       </li>
     </ul>
   </div>
@@ -155,9 +150,9 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
 <div class="logo-row">
   <div class="logo-row__logo"><img src="{{ '/images/logos/Vivo.png' | relative_url }}" alt="NSFC"></div>
   <div class="logo-row__body">
-    <h3>CSSC &mdash; Multimodal Reasoning Methodology (Jul. 2023 - Present)</h3>
+    <h3>China Ministry of Education Joint Fund &mdash; Brain-Inspired Adaptive Visual Perception (Jul. 2023 - Present)</h3>
     <ul>
-      <li><strong>Project Goal:</strong> .</li>
+      <li><strong>Project Goal:</strong> To research brain-inspired adaptive visual perception technology, including core components such as multi-object detection, survey description generation, and multi-object visual tracking..</li>
       <li><strong>Project Results:</strong> </li>
       <li><strong>Personal Work:</strong> 
         <ul>
