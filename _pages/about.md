@@ -153,14 +153,8 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
     <h3>China Ministry of Education Joint Fund &mdash; Brain-Inspired Adaptive Visual Perception (Jul. 2023 - Present)</h3>
     <ul>
       <li><strong>Project Goal:</strong> To research brain-inspired adaptive visual perception technology, including core components such as multi-object detection, survey description generation, and multi-object visual tracking..</li>
-      <li><strong>Project Results:</strong> </li>
-      <li><strong>Personal Work:</strong> 
-        <ul>
-          <li>line 1.</li>
-          <li>line 2.</li>
-          <li>line 3.</li>
-        </ul>
-      </li>
+      <li><strong>Project Results:</strong> Underway; multi-scale multi-object detection models and few-shot object detection models have been completed, as have image event description models and multimodal pre-training schemes; integration of the prototype system and performance evaluation are currently in progress.</li>
+      <li><strong>Personal Work:</strong> A multi-branch block network architecture was designed to simulate the multi-receptive-field characteristics of the cerebral cortex, enabling multi-branch routing and multi-scale receptive field coverage; a dynamic neural pathway model was developed to flexibly adapt to downstream tasks through dense cross-layer connections and dynamic activation via routing functions.</li>
     </ul>
   </div>
 </div>
@@ -173,14 +167,13 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
   <div class="logo-row__body">
     <h3>Huawei Cup &mdash; China Graduate AI Innovation Competition (Nov. 2024 ~ Mar. 2025)</h3>
     <ul>
-      <li><strong>Project Goal:</strong> domain LLM and agent system for foreign language education consultation scenarios, improving dialogue quality through data construction, model fine-tuning, and agent architecture design.</li>
-      <li><strong>Project Results:</strong> Established a supporting data management pipeline for continuous iteration and a high-quality dataset of 20,000 multi-turn dialogues; Delivered a model fine-tuning &amp; evaluation across multiple mainstream LLMs (Qwen, Doubao, GPT-4o); Deployed a RAG-based Agent system integrating tool calling, user profiling, and business APIs, achieving a full end-to-end cycle from demo to production.</li>
+      <li><strong>Project Goal:</strong> Develop a lightweight recognition system (&lt;50MB) for fine-grained pet breed classification and individual identification.</li>
+      <li><strong>Project Results:</strong> Led the development of PetXNet, a lightweight YOLOv8-based model achieving 92.65% breed classification accuracy and 93.64% individual identification accuracy, earning Third Prize in the competition.</li>
       <li><strong>Personal Work:</strong> 
         <ul>
-          <li><strong>Data Construction:</strong> Built, cleaned, and quality-controlled 20,000 multi-turn dialogue samples (100–600 turns each).</li>
-          <li><strong>Model Selection &amp; Fine-tuning:</strong> Benchmarked multiple models across three approaches (direct use, prompt optimization, and supervised fine-tuning) to determine the optimal solution.</li>
-          <li><strong>Agent Development:</strong> Designed the Agent Workflow architecture, implementing retrieval-augmented generation, tool calling, structured user profiling, and business system integration.</li>
-          <li><strong>Collaboration &amp; Operations:</strong> Partnered with frontline consulting teams on requirements analysis, performance evaluation, and iterative deployment; produced documentation and built a pipeline for continuous data collection and model updates</li>
+          <li>Led a cross-disciplinary team and coordinated project planning and execution.</li>
+          <li>Designed the model architecture and technical roadmap. Developed data augmentation, hard-example mining, and multi-granularity feature extraction strategies.</li>
+          <li>Code implementation, review, documentation, and final presentation.</li>
         </ul>
       </li>
     </ul>
@@ -189,31 +182,15 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
 
 
 
-<!--[//]: #  📝 Latest Blog Posts
-
-[//]: # {% assign en_posts = site.posts | where_exp: "post", "post.path contains '_posts/EN/'" | sort: 'date' | reverse %}
-[//]: # {% if en_posts.size > 0 %}
-[//]: # {% for post in en_posts limit:2 %}
-[//]: # <div class="paper-box" style="margin-bottom: 24px;">
-[//]: #   <h3 style="margin: 0 0 6px 0;"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-[//]: #   <p class="page__meta" style="margin: 0 0 8px 0;">{{ post.date | date: "%B %d, %Y" }}</p>
-[//]: #   <div class="archive__item-excerpt">
-[//]: #     {{ post.excerpt | strip_html | truncate: 220 }}
-[//]: #   </div>
-[//]: # </div>
-[//]: # {% endfor %}
-
-[//]: # <p style="text-align: right;"><a href="{{ '/blog/' | relative_url }}">View all posts →</a></p>
-[//]: # {% else %}
-[//]: # <p>No blog posts yet. Check back soon!</p>
-[//]: # {% endif %} -->
 
 # 🌱 About Me
 
 Cheerful, optimistic, and thrives on tackling challenging tasks. Passionate about **Sudoku (ShuDu)**, **gaming**, and **football**.
 
-- **Sudoku (ShuDu):**
-- **Gaming:** my long-time favorite is *MineCraft* and *Subnautica*.
-- **Football:**
+- **Sudoku (ShuDu):** I'm a long-time fan of logic puzzles; I enjoy the process of finding solutions through analysis, elimination, and searching.
+- **Gaming:** my long-time favorite is *MineCraft* and *Subnautica*; I’m fascinated by exploration, building, and resource management.
+- **Football:** I have long participated in ball sports, with a particular passion for football, and played for my college team.
 
-<!-- One funny coincidence I cannot help noticing: almost everything I happen to love — Go, StarCraft II, football — has at some point become a research target of DeepMind. That coincidence is part of why I deeply believe in the power of AI. My goal is to push the frontier of AGI through **reinforcement learning, game theory, and multi-agent systems on top of large language models**, on both the research side and real-world applications. -->
+The areas that fascinate me are deeply intertwined with artificial intelligence: logical reasoning; agents in open environments and reinforcement learning; and multi-agent collaboration, adversarial games, and real-time decision-making. 
+
+These interests have led me to realize that AI is not merely a technical tool, but a means to understand a complex world and generate intelligent behavior. Looking ahead, I aim to explore the frontiers of AGI and unlock further possibilities by focusing on large-scale models, reinforcement learning, and multi-agent systems.
