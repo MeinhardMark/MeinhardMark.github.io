@@ -29,7 +29,7 @@ lang: zh
 
 # 📝 学术论文
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026 Oral</div><img src='/images/MMSep.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026</div><img src='/images/MMSep.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 MMSep: Efficient Multimodal Long-Generation Reasoning via Multimodal Separator Compression \\
@@ -82,7 +82,7 @@ Zhiyuan Ma, Yuzhu Zhang, Guoli Jia, Liangliang Zhao, Yichao Ma, **Mingjie Ma**, 
 <div class='paper-box-text' markdown="1">
   
 PriCo: Prior-Guided Bidirectional Branch Cooperation in ControlNet for Fine-Grained Pose Generation \\
-Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (第二学生作者)
+Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma**
 
 - 提出无需训练的 PriCo 框架，实现了结构一致性与细粒度动作保真的人体图像生成
 </div>

@@ -32,7 +32,7 @@ redirect_from:
 
 # 📑 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026 Oral</div><img src='images/MMSep.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026</div><img src='images/MMSep.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 MMSep: Efficient Multimodal Long-Generation Reasoning via Multimodal Separator Compression \\
@@ -85,7 +85,7 @@ Zhiyuan Ma, Yuzhu Zhang, Guoli Jia, Liangliang Zhao, Yichao Ma, **Mingjie Ma**, 
 <div class='paper-box-text' markdown="1">
   
 PriCo: Prior-Guided Bidirectional Branch Cooperation in ControlNet for Fine-Grained Pose Generation \\
-Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
+Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma**
 
 </div>
 </div>
