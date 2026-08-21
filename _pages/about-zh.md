@@ -22,7 +22,7 @@ lang: zh
   <div class="logo-row__body">
     <h4>华中科技大学 &mdash; 武汉</h4>
     <p><em>2023 年 6 月 - 2027 年 6 月</em>，博士，计算机科学与技术学院，师从李国徽教授、李剑军教授。</p>
-    <p>研究方向：多模态大模型、自然语言处理、高效推理。</p>
+    <p>研究方向：多模态大模型、高效推理、强化学习。</p>
   </div>
 </div>
 
@@ -91,6 +91,22 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (第二学生作者)
 
 
 # 💻 实习经历
+
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/Xiaomi.png' | relative_url }}" alt="Xiaomi"></div>
+  <div class="logo-row__body">
+    <h3>小米科技 &mdash; Computer-Use Agent 算法 (2026 年 8 月 ~ 至今)</h3>
+    <ul>
+      <li><strong>项目目标：</strong> 针对 GUI 场景的长程电脑操作任务，开发 Agent 后训练算法，推进应用落地。</li>
+      <li><strong>个人工作：</strong> 
+        <ul>
+          <li><strong>数据构建：</strong> 筛选高质量数据样本，用于 Agent 后训练微调。</li>
+          <li><strong>SFT 与 RL 后训练：</strong> 基于 Slime 微调架构和 CUA-Gym 环境池，开发适用于 computer-use agent 的后训练框架，包括数据展示、模型效果两两对比等可视化方案，辅助 bad/hard case 发现。</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
 
 <div class="logo-row">
   <div class="logo-row__logo"><img src="{{ '/images/BohrDuck.png' | relative_url }}" alt="Bohr Duck AI"></div>

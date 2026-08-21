@@ -94,6 +94,22 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
 # 👨‍💻 Internship Experiences
 
 <div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/Xiaomi.png' | relative_url }}" alt="Xiaomi"></div>
+  <div class="logo-row__body">
+    <h3>Xiaomi &mdash; Computer-Use Agent Algorithm (Aug. 2026 ~ Present)</h3>
+    <ul>
+      <li><strong>Project Goal:</strong> For long-term computer GUI operation tasks, develop agents and algorithms to advance application implementation。</li>
+      <li><strong>Personal Work:</strong> 
+        <ul>
+          <li><strong>Data Construction:</strong> Filter high-quality data for SFT and Post-training.</li>
+          <li><strong>SFT &amp; RL Post-training:</strong> Based on the Slime and environment pool, developed a post-training framework suitable for computer-use agents, including visualization solutions such as data display and pairwise comparison to assist in bad/hard case discovery.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="logo-row">
   <div class="logo-row__logo"><img src="{{ '/images/BohrDuck.png' | relative_url }}" alt="Bohr Duck AI"></div>
   <div class="logo-row__body">
     <h3>Bohr Duck AI &mdash; Domain LLM application and agent system (Nov. 2024 ~ Mar. 2025)</h3>
@@ -150,7 +166,7 @@ Yichao Ma, Guohui Li, Zhong Yang, **Mingjie Ma** (Rank 2nd in students)
 <div class="logo-row">
   <div class="logo-row__logo"><img src="{{ '/images/jyb.png' | relative_url }}" alt="JYB"></div>
   <div class="logo-row__body">
-    <h3>China Ministry of Education Joint Fund &mdash; Brain-Inspired Adaptive Visual Perception (Jul. 2023 - Present)</h3>
+    <h3>China Ministry of Education Joint Fund &mdash; Brain-Inspired Adaptive Visual Perception (Jul. 2023 ~ Present)</h3>
     <ul>
       <li><strong>Project Goal:</strong> To research brain-inspired adaptive visual perception technology, including core components such as multi-object detection, survey description generation, and multi-object visual tracking..</li>
       <li><strong>Project Results:</strong> Underway; multi-scale multi-object detection models and few-shot object detection models have been completed, as have image event description models and multimodal pre-training schemes; integration of the prototype system and performance evaluation are currently in progress.</li>
